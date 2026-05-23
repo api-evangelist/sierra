@@ -1,0 +1,129 @@
+aid: sierra
+name: Sierra
+description: Sierra is an enterprise conversational AI platform co-founded by Bret Taylor that builds and
+  operates customer-facing AI agents across chat, SMS, WhatsApp, email, voice, and ChatGPT. Its Agent OS
+  includes Agent Studio for building agents, Ghostwriter for agent generation from SOPs and transcripts,
+  Insights for analytics, an Agent Data Platform for personalization, Voice Agents, and Live Assist for human
+  handoff. Sierra is enterprise sales-led with no self-serve public developer API; integrations and Agent
+  SDK access are provisioned through customer engagements.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/sierra/refs/heads/main/apis.yml
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+type: Index
+access: 3rd-Party
+position: Producer
+tags:
+- Agents
+- AI
+- Chat
+- Conversational AI
+- Customer Experience
+- Customer Service
+- Enterprise
+- Voice
+apis:
+- aid: sierra:agent-os
+  name: Sierra Agent OS
+  description: Sierra Agent OS is the enterprise platform for building, deploying, and operating customer-facing
+    AI agents. It includes Agent Studio, Ghostwriter, Insights, the Agent Data Platform, Voice Agents, and
+    Live Assist. Sierra references an Agent SDK in product materials but does not publish a public API
+    reference; access is provisioned through enterprise engagement.
+  humanURL: https://sierra.ai/platform
+  tags:
+  - Agents
+  - Conversational AI
+  - Enterprise
+  - SDK
+  - Voice
+  properties:
+  - type: Documentation
+    url: https://sierra.ai/platform
+common:
+- type: Website
+  url: https://sierra.ai
+- type: Blog
+  url: https://sierra.ai/blog
+- type: Customers
+  url: https://sierra.ai/customers
+- type: Pricing
+  url: https://sierra.ai/contact
+- type: TermsOfService
+  url: https://sierra.ai/legal/terms-of-service
+- type: PrivacyPolicy
+  url: https://sierra.ai/legal/privacy-policy
+- type: Support
+  url: https://sierra.ai/contact
+- type: GitHubOrganization
+  url: https://github.com/sierra-ai
+- type: LinkedIn
+  url: https://www.linkedin.com/company/sierra-ai
+- type: Login
+  url: https://app.sierra.ai
+- type: Features
+  data:
+  - name: Agent Studio
+    description: Dashboard for building, configuring, optimizing, and managing customer-facing AI agents.
+  - name: Ghostwriter
+    description: Agent-building agent that generates production-ready agents from SOPs, transcripts, or
+      plain English descriptions.
+  - name: Insights
+    description: Analytics suite covering conversation Explorer, proactive Monitors, multivariate Experiments,
+      and tool-call Observability.
+  - name: Agent Data Platform
+    description: Integrates customer context, conversation history, and data warehouses for personalization.
+  - name: Voice Agents
+    description: AI agents deployable across voice, chat, SMS, WhatsApp, email, and ChatGPT channels.
+  - name: Live Assist
+    description: Seamless escalation and human-in-the-loop handoff from AI agents to live customer service
+      reps.
+- type: UseCases
+  data:
+  - name: Customer Service Automation
+    description: Resolve customer support inquiries autonomously across channels.
+  - name: Voice IVR Replacement
+    description: Replace traditional IVR with natural conversational voice agents.
+  - name: Subscription Retention
+    description: Reduce subscription cancellations through proactive agent engagement.
+- type: Customers
+  data:
+  - name: Rocket Mortgage
+  - name: SoFi
+  - name: Chime
+  - name: Brex
+  - name: Gap Inc.
+  - name: SiriusXM
+  - name: Wayfair
+  - name: Sutter Health
+  - name: Discord
+  - name: Redfin
+  - name: Rivian
+  - name: ADT
+  - name: CLEAR
+  - name: Singtel
+  - name: Tubi
+- type: Integrations
+  data:
+  - name: Google Cloud
+    description: Data connectivity and infrastructure partner.
+  - name: Databricks
+    description: Data warehouse and ML platform connector for agent context.
+  - name: Snowflake
+    description: Data warehouse connector for the Agent Data Platform.
+  - name: Redis
+    description: Real-time data and cache integration.
+  - name: AWS
+    description: Cloud infrastructure and data connector.
+- type: Compliance
+  data:
+  - name: SOC 2
+  - name: ISO 27001
+  - name: ISO 42001
+  - name: HIPAA
+  - name: GDPR
+  - name: EU AI Act
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+  url: https://apievangelist.com
