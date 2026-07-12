@@ -41,6 +41,12 @@ apis:
   - type: Documentation
     url: https://sierra.ai/platform
 common:
+- type: TrustCenter
+  url: security/sierra-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/sierra-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/sierra-domain-security.yml
 - type: Website
   url: https://sierra.ai
 - type: Blog
