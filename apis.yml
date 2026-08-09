@@ -1,11 +1,11 @@
 aid: sierra
 name: Sierra
-description: Sierra is an enterprise conversational AI platform co-founded by Bret Taylor that builds and
-  operates customer-facing AI agents across chat, SMS, WhatsApp, email, voice, and ChatGPT. Its Agent OS
-  includes Agent Studio for building agents, Ghostwriter for agent generation from SOPs and transcripts,
-  Insights for analytics, an Agent Data Platform for personalization, Voice Agents, and Live Assist for human
-  handoff. Sierra is enterprise sales-led with no self-serve public developer API; integrations and Agent
-  SDK access are provisioned through customer engagements.
+description: Sierra is an enterprise conversational AI platform co-founded by Bret Taylor that builds
+  and operates customer-facing AI agents across chat, SMS, WhatsApp, email, voice, and ChatGPT. Its Agent
+  OS includes Agent Studio for building agents, Ghostwriter for agent generation from SOPs and transcripts,
+  Insights for analytics, an Agent Data Platform for personalization, Voice Agents, and Live Assist for
+  human handoff. Sierra is enterprise sales-led with no self-serve public developer API; integrations
+  and Agent SDK access are provisioned through customer engagements.
 accessModel:
   pricing: free
   onboarding: unknown
@@ -21,7 +21,7 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sierra.png
 url: https://raw.githubusercontent.com/api-evangelist/sierra/refs/heads/main/apis.yml
 created: '2026-05-23'
-modified: '2026-05-23'
+modified: '2026-08-08'
 specificationVersion: '0.19'
 type: Index
 access: 3rd-Party
@@ -39,9 +39,9 @@ apis:
 - aid: sierra:agent-os
   name: Sierra Agent OS
   description: Sierra Agent OS is the enterprise platform for building, deploying, and operating customer-facing
-    AI agents. It includes Agent Studio, Ghostwriter, Insights, the Agent Data Platform, Voice Agents, and
-    Live Assist. Sierra references an Agent SDK in product materials but does not publish a public API
-    reference; access is provisioned through enterprise engagement.
+    AI agents. It includes Agent Studio, Ghostwriter, Insights, the Agent Data Platform, Voice Agents,
+    and Live Assist. Sierra references an Agent SDK in product materials but does not publish a public
+    API reference; access is provisioned through enterprise engagement.
   humanURL: https://sierra.ai/platform
   tags:
   - Agents
@@ -141,7 +141,40 @@ common:
   - name: HIPAA
   - name: GDPR
   - name: EU AI Act
+- type: Portal
+  url: https://sierra.ai
+- type: Documentation
+  url: https://docs.sierra.ai
+- type: Resources
+  url: https://sierra.ai/resources
+- type: Careers
+  url: https://sierra.ai/careers
+- type: Contact
+  url: https://sierra.ai/contact
+- type: Events
+  url: https://sierra.ai/summit
+- type: X
+  url: https://twitter.com/sierraplatform
+- type: Solutions
+  data:
+  - name: Financial Services
+    description: Vertical solution for banks, fintechs, and lenders with compliance tooling and case templates.
+  - name: Healthcare
+    description: HIPAA-aligned deployments for payers, providers, and digital health.
+  - name: Telecommunications
+    description: Carrier-grade agents for plan changes, troubleshooting, and retention.
+  - name: Media and Subscriptions
+    description: Subscription lifecycle and content support.
+  - name: Travel and Hospitality
+    description: Booking, itinerary changes, and concierge experiences (Woodside Collection).
+  - name: Retail
+    description: Pre-purchase, post-purchase, and loyalty agents.
+  - name: Technology
+    description: Developer tools and SaaS support workflows.
+  url: ''
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
   url: https://apievangelist.com
+x-merged-from:
+- sierra-ai
