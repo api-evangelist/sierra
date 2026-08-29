@@ -6,6 +6,17 @@ description: Sierra is an enterprise conversational AI platform co-founded by Br
   Insights for analytics, an Agent Data Platform for personalization, Voice Agents, and Live Assist for
   human handoff. Sierra is enterprise sales-led with no self-serve public developer API; integrations
   and Agent SDK access are provisioned through customer engagements.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: free
   onboarding: unknown
