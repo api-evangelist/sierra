@@ -1,6 +1,7 @@
 generated: '2026-10-15'
 method: searched
 checked:
+- slack/integrations/slack-integration-edges.yml
 - stripe/integrations/stripe-integration-edges.yml
 source:
 - stripe/integrations/stripe-integration-edges.yml
@@ -22,3 +23,20 @@ edges:
   detected: '2026-10-15'
   detected_by: mirror-platform-listings.py
   category: support
+- partner_name: Slack (own)
+  partner: slack
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://slack.com/marketplace/A08EWNZH2QY-ghostwriter
+  mirror_of: slack/integrations/slack-integration-edges.yml
+  apps:
+  - Ghostwriter
+  listing_count: 1
+  detected: '2026-10-18'
+  detected_by: mirror-platform-listings.py
+  category: Slack app
